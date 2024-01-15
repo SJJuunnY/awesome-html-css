@@ -27,10 +27,41 @@
         </li>
     </ol>
     <select>
-        <option value="1">항목 1</option>
-        <option value="2">항목 2</option>
-        <option value="3">항목 3</option> 
+        <option value="1">FW</option>
+        <option value="2">MF</option>
+        <option value="3">DF</option> 
     </select>
     <input type="text" name="username" maxlength=20 placeholder="최애 선수 입력">
+    <button onclick="alert('Hello!')">입력</button>
+    <br>
+    <br>
+    <h3>훈련 모습 감상</h3>
+
+    <video controls width="500"> 
+        <source src="비디오_파일.mp4" type="video/mp4"> 
+        Your browser does not support the video element. 
+    </video>
+    <h4>- 대한축구협회</h4>
+    <li>경기 예매 하기</li>
+    
+    <fieldset>
+        <legend>개인 정보</legend>
+        <label for="name">이름:</label>
+        <input type="text" id="name" name="name"> 
+        <button onclick="alert('Hello!')">입력</button><br><br>
+        <label for="email">이메일:</label>
+        <input type="email" id="email" name="email">
+        <button onclick="alert('Hello!')">입력</button><br><br>
+    </fieldset>
+    <br>
+    <iframe src="https://www.kfa.or.kr/" width="600" height="400"></iframe><br><br>
+    
+    <h4>- 제출 후 나가기</h5>
+    <div>이메일과 비밀번호를 입력하세요</div>
+    <form action="/submit" method="post">
+        <input type="text" name="username" placeholder="이메일" pattern="email">
+        <input type="password" name="password" placeholder="비밀번호">
+        <button type="submit">제출</button>
+    </form>
 </body>
 </html>
