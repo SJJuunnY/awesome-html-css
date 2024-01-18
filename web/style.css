@@ -76,7 +76,7 @@ header h1 em{
     font-weight: 600;
     line-height: 125%;
     letter-spacing: -1.28px;
-    animation: fadein 3s;
+    animation: fadein 1s infinite;
 }
   
 .headerlinkContainer{
@@ -112,7 +112,7 @@ header h1 em{
     border: 10px solid #bcf2f9;
     width: 250px;
     height: 250px;
-    background-image: url("pics/준식.jpg");
+    background-image: url("../Day_2/pics/준식.jpg");
     background-size: cover;
     background-position: 60%;
   }
