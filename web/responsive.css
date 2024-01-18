@@ -1,0 +1,70 @@
+@media screen and (max-width: 390px){
+    nav{
+        height: 50px;
+    }
+    .navItem{
+        font-size: 10px;
+    }
+    .badge{
+        font-size: 12px;
+        margin: 0px;
+        padding : 6px 12px;
+    }
+    header{
+        margin:0px;
+    }
+    header h1{
+        font-size: 32px;
+    }
+    header h1 em{
+        font-size: 32px;
+    }
+    .headerLink{
+        font-size: 14px;
+        padding : 12px 20px;
+        margin-bottom: 10px;
+    }
+    .headerlinkContainer{
+        justify-content: space-evenly;
+        
+        padding :0px;
+    }
+
+    .profileImage{
+        display: none;
+    }
+    .superman{
+        width: 50px;
+        height: 50px;
+    }
+    .contact-me{
+        width: 50px;
+        height: 25px;
+        font-size :100px;
+    }
+    .techLogos{
+        grid-template-columns: repeat(3, 1fr);
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
+        justify-content: space-evenly;
+        .pics{
+            align-items: center;
+            margin : 0px;
+            justify-content: center;
+            width: 60px;
+            height: 60px;
+        }  
+        img{
+            background-color: aquamarine;
+            height: 60px;
+            width: 60px;
+        }
+    }
+    .fixedContactButton{
+        font-size: 10px;
+        padding: 10px 20px;
+        right: 20px;
+        bottom : 20px;
+        width: 90px;
+    }
+}
