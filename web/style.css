@@ -278,7 +278,9 @@ header h1 em{
     align-items: center;
     text-align: center;
 }
-
+    .recommendationContainer{
+        margin: 30px auto;
+    }
 .recommendationContainer h3{
     width: 960px;
     justify-content: center;
@@ -295,7 +297,7 @@ header h1 em{
 
 .recommendationContainer{
     /* overflow : hidden; */
-    
+    margin : 30px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
