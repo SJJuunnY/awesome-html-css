@@ -357,7 +357,7 @@ header h1 em{
 
 .dajim{
     display: flex;
-    max-width: 1366px;
+    /* max-width: 1366px; */
     height: 406px;
     padding: 64px 0px;
     flex-direction: column;
